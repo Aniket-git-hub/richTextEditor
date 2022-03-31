@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Aniket Singh">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/script/helperFunctions.js" async defer></script>
+    <script src="/script/main.js" async defer></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/3ebe549b7f.js" async defer crossorigin="anonymous"></script>
+    <title>Rich Text Editor</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tools-container">
+            <div class="tools">
+                <div class="tools-group">
+                    <button class="tool" id="bold">
+                        <i class="fas fa-bold"></i>
+                    </button>
+                    <button class="tool" id="italic">
+                        <i class="fas fa-italic"></i>
+                    </button>
+                    <button class="tool" id="underline">
+                        <i class="fas fa-underline"></i>
+                    </button>
+                    <button class="tool" id="strike">
+                        <i class="fas fa-strikethrough"></i>
+                    </button>
+                </div>
+                <button class="tool" id="link">
+                    <i class="fas fa-link"></i>
+                </button>
+                <button class="tool" id="heading">
+                    <i class="fas fa-bold"></i>
+                </button>
+                <button class="tool" id="image">
+                    <i class="fas fa-image"></i>
+                </button>
+                <button class="tool" id="list">
+                    <i class="fas fa-list"></i>
+                </button>
+                <button class="tool" id="quote">
+                    <i class="fas fa-quote-right"></i>
+                </button>
+                <button class="tool" id="code">
+                    <i class="fas fa-code"></i>
+                </button>
+            </div>
+        </div>
+        <div class="editor-container">
+            <article id="editor" contenteditable="true"></article>
+        </div>
+    </div>
+</body>
+
+</html>
